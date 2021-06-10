@@ -1,0 +1,219 @@
+{
+    "basics":
+    {
+        "name": "Susanth Guru",
+        "label": "Senior Big Data Developer",
+        "picture": "",
+        "email": "susanth.guru.29@gmail.com",
+        "phone": "+91 9500980912",
+        "website": "",
+        "summary": "Experienced in designing and implementing solutions for problems of multiple usecases by analysing technologies that fit. Have Hands on experience with multiple technologies like Hadoop,HIVE,Hbase,Spark,Cloudera,GCP and Kafka",
+        "location":
+        {
+            "address": "",
+            "postalCode": "",
+            "city": "Chennai",
+            "countryCode": "IN",
+            "region": "Tamilnadu"
+        },
+        "profiles":
+        [
+            {
+                "network": "LinkedIn",
+                "username": "Susanth Guru",
+                "url": "https://www.linkedin.com/in/susanth-guru-052085175"
+            }
+        ]
+    },
+    "work":
+    [
+        {
+            "company": "CanGo Networks Pvt Ltd, Chennai",
+            "summary": "Provides Network Analytics product which can provide End to End Assurance",
+            "position": "Senior Big Data Developer",
+            "website": "https://www.cangonetworks.com/",
+            "startDate": "2019-11-07",
+            "highlights":
+            [
+                "Designed solutions based on JAVA for CoreServices and SpringBoot for APIs",
+                "Developed spark based and multithreaded performant oriented applications based on JAVA to collect and parse data from various data sources"
+            ]
+        },
+        {
+            "company": "National Payments Corporation of India, Chennai",
+            "summary": "The umbrella corporation for all digital payments in India",
+            "position": "Associate Enterprise Architect",
+            "website": "https://www.npci.org.in/",
+            "startDate": "2017-07-14",
+            "endDate": "2019-11-06",
+            "highlights":
+            [
+                "Designed solutions based on HIVE and HBASE",
+                "Developed utility jars to help operations team"
+            ]
+        }
+    ],
+    "education":
+    [
+        {
+            "institution": "JJCET, Trichy",
+            "website": "http://www.jjcet.ac.in/",
+            "area": "Computer Science and Engineering",
+            "studyType": "B.E.",
+            "startDate": "2011-05-01",
+            "endDate": "2015-05-20",
+            "gpa": "7.4",
+            "courses":[]
+        },
+        {
+            "institution": "SSN, Chennai",
+            "website": "https://www.ssn.edu.in/",
+            "area": "Computer Science and Engineering",
+            "studyType": "M.E.",
+            "startDate": "2015-06-01",
+            "endDate": "2017-06-26",
+            "gpa": "7.2",
+            "courses":[]
+        }
+    ],
+    "publications":
+    [
+         {
+            "name": "Emulation of IoT gateway",
+            "publisher": "ResearchGate ICCCSP",
+            "releaseDate": "2017-01-15",
+            "website": "https://www.researchgate.net/publication/317421097_Emulation_of_IoT_gateway_for_connecting_sensor_nodes_in_heterogenous_networks",
+            "summary": "Emulation of IoT gateway for connecting sensor nodes in heterogenous networks within testing and lab environments"
+        }
+    ],
+    "skills":
+    [
+        {
+            "name": "Back End Services and APIs",
+            "keywords":
+            [
+                "JAVA",
+                "CORE JAVA",
+                "MULTITHREAD",
+                "SPARK",
+                "HADOOP",
+                "SPRING BOOT",
+                "KAFKA",
+                "PUBSUB"
+            ]
+        },
+        {
+            "name": "DataBases",
+            "keywords":
+            [
+                "MySQL",
+                "Arango DB",
+                "Hive",
+                "HBase",
+                "Postgres",
+                "BigQuery",
+                "Elastic Search"
+            ]
+        }
+    ],
+    "languages":
+    [ {
+            "language": "Tamil - \u0ba4\u0bae\u0bbf\u0bb4\u0bcd",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        }
+    ],
+     "projects":
+    [
+        {
+            "name": "SSH Data Collector",
+            "summary": "Multithreaded Application to fetch data from Routers and Switches",
+            "highlights":
+            [
+                "Routers can be connected only through a JumpHost",
+                "Using Jsch library"
+            ],
+            "keywords":
+            [
+                "CORE JAVA",
+                "JSCH",
+                "EXECUTOR SERVICE",
+                "JAVA FUTURE"
+            ],
+            "roles":
+            [
+                "Developer"
+            ]
+        },
+        {
+            "name": "SPARK BASED DATA PARSER",
+            "summary": "Spark based Parser to extract and transform data from large files either csv or xml",
+            "highlights":
+            [
+                "Pivot functions applied to make the data structured",
+                "Based on JAVA SPARK SQL",
+                "Performance increased with persistence of dataframes"
+            ],
+            "keywords":
+            [
+                "JAVA",
+                "SPARK",
+                "JDBC",
+                "HIVE",
+                "IMPALA"
+            ],
+            "roles":
+            [
+                "Developer"
+            ]
+        },
+        {
+            "name": "e-ATP",
+            "summary": "Electronically Available-to-promise",
+            "highlights":
+            [
+                "Process a daily file fetched from SFTP location and perform business logic then store in DB",
+                "Lots of validations against data in the file and the data in DB "
+            ],
+            "keywords":
+            [
+                "CORE JAVA",
+                "JDBC",
+                "CSV PROCESSING"
+            ],
+            "roles":
+            [
+                "Developer"
+            ]
+        },
+        {
+            "name": "RASA - ChatBot",
+            "summary": "A simple chatbot based on trained conversations",
+            "highlights":
+            [
+                "Provides trained answers based on questions asked",
+                "Using plain Javascript and RASA Stack"
+            ],
+            "keywords":
+            [
+                "RASA Stack",
+                "NLP",
+                "JAVASCRIPT"
+            ],
+            "roles":
+            [
+                "Developer"
+            ]
+        }
+    ],
+     "meta":
+    {
+        "theme": "stackoverflow",
+        "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+        "version": "v1.0.0",
+        "lastModified": "2017-12-24T15:53:00"
+    }
+}
