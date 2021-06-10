@@ -104,8 +104,10 @@
                 "SPARK",
                 "HADOOP",
                 "SPRING BOOT",
-                "KAFKA",
-                "PUBSUB"
+                "Apache KAFKA",
+                "PUBSUB",
+                "Apache NIFI"
+
             ]
         },
         {
@@ -115,6 +117,7 @@
                 "MySQL",
                 "Arango DB",
                 "Hive",
+                "Impala",
                 "HBase",
                 "Postgres",
                 "BigQuery",
@@ -122,10 +125,13 @@
             ]
         },
         {
-            "name": "LINUX and DEVOPS",
-            "level":"master",
+            "name": "Linux and others",
             "keywords":
             [
+                "RHEL",
+                "Centos-7",
+                "debian",
+                "Ubuntu and derivatives",
                 "docker",
                 "shell script",
                 "bash",
