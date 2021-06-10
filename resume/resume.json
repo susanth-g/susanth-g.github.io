@@ -22,6 +22,12 @@
                 "network": "LinkedIn",
                 "username": "Susanth Guru",
                 "url": "https://www.linkedin.com/in/susanth-guru-052085175"
+            },
+
+            {
+                "network": "GitHub",
+                "username": "Susanth Guru",
+                "url": "https://github.com/susanth-g"
             }
         ]
     },
@@ -113,6 +119,20 @@
                 "Postgres",
                 "BigQuery",
                 "Elastic Search"
+            ]
+        },
+        {
+            "name": "LINUX and DEVOPS",
+            "level":"master",
+            "keywords":
+            [
+                "docker",
+                "shell script",
+                "bash",
+                "vim",
+                "git",
+                "gitlab",
+                "kubernetes"
             ]
         }
     ],
