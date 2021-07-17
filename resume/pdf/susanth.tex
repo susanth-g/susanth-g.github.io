@@ -1,0 +1,268 @@
+%-------------------------
+% Resume in Latex
+% Author : Susanth
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[A4,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage{xcolor}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+% serif
+\usepackage[scaled]{uarial}
+%\usepackage{bera}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+ %\usepackage{charter}
+ %\usepackage{bitter}
+ %\usepackage{verdana}
+ %\usepackage[urw-garamond]{mathdesign}
+% \usepackage[T1]{fontenc}
+
+%BLANK FOOTNOTE
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \small#3 & \small #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \small #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\fancyfoot[CE]{Made with \LateX }
+
+\begin{document}
+
+%\blfootnote{Made with \LaTeX}
+
+
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Susanth Guru} \\ \vspace{1pt}
+    Senior Big Data Developer \\ \vspace{1pt} Kumbakonam, TamilNadu, India \\ \vspace{1pt}
+ \small  \raisebox{-0.1\height}\faPhone\ +91 9500980912 ~ \href{mailto:susanth.guru.29@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{susanth.guru.29@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/susanth-guru-052085175}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/susanth-guru}}  ~
+    \href{https://github.com/susanth-g}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/susanth-g}}
+    \vspace{-4pt}
+\end{center}
+
+%-----------ABOUT 
+\section{About}
+\small I have \textbf{4 years} of experience in documenting, designing and implementing solutions for problems of multiple usecases by analysing technologies that fit. I also have hands on experience with multiple technologies like Hadoop, HIVE, Hbase, Spark, Cloudera, GCP and Kafka to complete data ingestion pipe lines and provision of ingested data to the product user interface.
+\vspace{-5pt}
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://cangonetworks.com}{CanGo Networks Pvt Ltd \faExternalLinkSquare*\ }}{Nov 2019 -- Present}
+      {Senior Big Data Developer}{Chennai, TamilNadu}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented solutions based on core JAVA for CoreServices and SpringBoot for APIs.}
+        \resumeItem{Developed spark based and multithreaded performant oriented applications based on JAVA to collect and parse data from various data sources such as FTP, Command output from SSH Session, messaging queues like Kafka and Pubsub. }      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://npci.org.in}{National Payments Corporation of India \faExternalLinkSquare*\ }}{Jul 2017 -- Nov 2019}
+      {Associate Enterprise Architect}{Chennai, TamilNadu}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented solutions based on HIVE and HBASE , Apache NIFI and Apache Phoenix.}
+        \resumeItem{Developed utility jars to help operations team for scheduled daily reports which reduced the effort and time to generate reports manually everyday.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages and Scripts }{: Java 8, Spring Boot, SQL, Arango QL, Shell Script, Docker YAML (basic), Python (Only to script)} \\[1pt] 
+\textbf{DataBase Technologies(SQL)}{: MySQL, Postgres, HIVE, Impala}\\[1pt] 
+\textbf{DataBase Technologies(NoSQL)}{: HBase, ArangoDB, Elastic Search}\\[1pt] 
+\textbf{Cloud Technologies}{: GCP [ BigQuery, PubSub, CloudStorage, CloudSQL, DataProc, Kubernetes ], AWS [ S3 Bucket ] }\\[1pt] 
+\textbf{Big Data Technologies}{: Hadoop, Apache Spark, Apache NIFI, Spark SQL, Cloudera }\\[1pt] 
+     \textbf{Developer Tools}{: VS Code, Eclipse, SublimeText 4, NP++, StarUML, draw.io} \\[1pt] 
+\textbf{Terminal Tools}{: bash, tmux, less, vim, htop, top }\\[1pt] 
+     \textbf{Other Technologies/Frameworks}{: Linux, Git, SVN, JUnit, Microservices, Rserve, REST API, Kubernetes, Docker, RASA ChatBot} \\[1pt] 
+
+    }}
+ \end{itemize}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{NIMS - Network Inventory Management System} $|$ \emph{Core JAVA,  JAVA Future, \href{http://www.jcraft.com/jsch/} {Jsch Library}, ArangoDB }}{} \\ \vspace{8pt}
+\textbf{Role}{: Lead and Developer } \\ \vspace{-5pt}
+          \resumeItemListStart
+            \resumeItem{Lead a small team of UI and API developers to develop APIs and UI for  visualizing the data collected.}
+\resumeItem{Designed and Implemented the complete Data collection service using Executor Service, Java Future and Jsch to fetch and parse data from 6000 devices for each of 4 vendors(Juniper, Cisco, Huawei, Ericsson) on daily basis.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{MAXIS - OptiGo AI Product} $|$ \emph{JAVA Spark, Hive, Impala, MySQL, SpringBoot}}{}\\
+\vspace{8pt}
+\textbf{Role}{: Developer } \\ \vspace{-5pt}
+          \resumeItemListStart
+            \resumeItem{Implemented a Data parser to populate kpi data or counter data from files using Spark SQL into Hive database by applying pivots and transformations over dataframes as required. Optimised Spark SQL performance with persistence. }
+            \resumeItem{Designed and implemented a KQI calculator using spark SQL to reaggregate KPI data with the information from MySQL configured to calculate KQI and push to Hivetables as in scheduled time interval.}
+            \resumeItem{Developed CRUD API using SpringBoot to configure KQI from UI.}
+\resumeItem{Worked closely with Datascience team to invoke R code from JAVA Spring Boot with RServe.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Transaction Enquiry System - NPCI UPI, NACH} $|$ \emph{Java HTTP Servlet, Apache NIFI, Hbase, Sqoop}}{}\\
+\vspace{8pt}
+\textbf{Role}{: Developer } \\ \vspace{-5pt}
+          \resumeItemListStart
+            \resumeItem{Designed and implemented a data ingestion pipeline using sqoop to fetch daily data from postgres and populate into Hive. Then From HIVE using Apache NIFI to fetch transaction data and form rowkey based on the data then push to Hbase.}
+            \resumeItem{Implemented APIs using JAVA HTTP Servlet to fetch data from Hbase using Apache Phoenix JDBC connection.}
+\resumeItem{Developed a scheduled report generation JAR to generate reports which reduced the time to generate manual reports but enabled operations to verify or analyse the data.}
+          \resumeItemListEnd 
+
+%\vspace{-15pt}
+
+        \resumeProjectHeading
+          {\textbf{RASA ChatBot - NPCI UPI, NACH} $|$ \emph{RASA Stack, Javscript, HTML, CSS}}{}\\
+\vspace{8pt}
+\textbf{Role}{: Developer } \\ \vspace{-5pt}
+          \resumeItemListStart
+            \resumeItem{Developed a question and answer bot by training the bot with predefined NLU based intent and responses along with forms to get dynamic data by requesting an API.}
+\resumeItem{Developed to answer FAQs and transaction enquiry with transaction ID of UPI.}
+        \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATION-----------
+\section{Publication}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+        {\href{https://www.researchgate.net/profile/Guru-Susanth}{Emulation of IoT Gateway \faExternalLinkSquare*\ }} {Jan 2017 }{Emulation of IoT gateway for connecting sensor nodes in heterogenous networks within lab environments.}{ICCCSP - Research Gate}
+\resumeSubHeadingListEnd
+
+\vspace{-10pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+         {SSN, Anna university Affil.}{Jun 2015 -- Jun 2017}
+      {Master of Engineering (M.E.,) in Computer Science}{Chennai, TamilNadu}\\~\\
+\vspace{2pt}
+\resumeSubheading
+      {JJCET, Anna university Affil.}{Jun 2011 -- May 2015}
+      {Bachelor of Engineering (B.E.,) in Computer Science}{Trichy, Tamilnadu}
+  \resumeSubHeadingListEnd
+
+
+\section{Languages}
+\resumeSubHeadingListStart
+\resumeSubheading{ Tamil - Native, English - Fluent}{}{}{}
+\resumeSubHeadingListEnd
+
+\end{document}
