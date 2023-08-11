@@ -13,8 +13,9 @@ body {
     font-family: 'Cabin', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Arimo', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .name {
@@ -122,9 +123,7 @@ li {
     width: 12px;
 }
 
-a {
-    color: #0D47A1;
-}
+
 
 code {
     color: black;
@@ -153,10 +152,6 @@ location {
     color: black;
 }
 
-.info a {
-    color: black;
-}
-
 #infotab {
     width: 85%;
     text-align: center;
@@ -171,11 +166,15 @@ location {
     margin-right: auto;
     text-align: center;
   }
+  a {
+    color: #0D47A1;
+}
 a {
     text-decoration: none;
 
     color: black;
 }
+
 
 h3 i {
     margin-left: 5px;
