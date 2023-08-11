@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;1,500&family=Cabin&family=Open+Sans:wght@300;400&family=Poppins&display=swap');
+
 html {
     padding: 0;
     margin: 10px;
@@ -70,19 +71,22 @@ role {
     font-weight: normal;
 }
 
-usedskills{
+usedskills {
     font-size: inherit;
     font-weight: normal;
     font-style: italic;
 }
-roleh{
+
+roleh {
     font-size: inherit;
     font-weight: bold;
 }
-roleh::after{
-    content:"Role: "
+
+roleh::after {
+    content: "Role: "
 }
-.role{
+
+.role {
     margin: 3px 0 0 0;
 }
 
@@ -158,6 +162,7 @@ location {
     margin-left: auto;
     margin-right: auto;
 }
+
 .container {
     width: 95%;
     display: flex;
@@ -165,10 +170,12 @@ location {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-  }
-  a {
+}
+
+a {
     color: #0D47A1;
 }
+
 a {
     text-decoration: none;
 
@@ -180,26 +187,28 @@ h3 i {
     margin-left: 5px;
 }
 
-.technicalskills p
-{
-padding: 3px 0 0 0 ;
+.technicalskills p {
+    padding: 3px 0 0 0;
 }
+
 .technicalskills table {
     max-width: 100%;
 }
 
 .technicalskills table tr td:nth-child(1) {
- text-align:right; font-weight: bold; 
+    text-align: right;
+    font-weight: bold;
 }
 
 .technicalskills table tr td:nth-child(2) {
-    text-align:left; font-weight: normal; 
-   }
+    text-align: left;
+    font-weight: normal;
+}
 
 .technicalskills table tr td:nth-child(1)::after {
-content: ": ";
-   }
-   
+    content: ": ";
+}
+
 /* ul {
     margin-left:auto; margin-right:auto;
     margin:0 10px 0 0;
@@ -229,5 +238,3 @@ content: ": ";
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-
-
