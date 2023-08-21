@@ -164,7 +164,7 @@ location {
     margin-right: auto;
 }
 
-.info-flex-outer {
+.container{
 	width: 85%;
 	display: flex; 
 	flex-wrap: wrap;
@@ -173,6 +173,27 @@ location {
     margin-right: auto;
     text-align: center;
 	}
+
+
+.inner {
+  flex-grow: 0.25;
+}
+
+@media (max-width: 720px) {
+
+  .inner {
+    width: calc(50% - 2px)
+  }
+}
+
+@media (max-width: 360px) {
+	
+  .inner {
+    width: calc(100% - 2px)
+  }
+}
+	
+	
 
 a {
     color: #0D47A1;
