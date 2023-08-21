@@ -111,6 +111,7 @@ ol {
 
 li {
     line-height: 150%;
+    text-align: normal;
     /* change this for tighter spacing */
     /* default 150% */
 }
@@ -163,14 +164,15 @@ location {
     margin-right: auto;
 }
 
-.container {
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
+.info-flex-outer {
+	width: 85%;
+	display: flex; 
+	flex-wrap: wrap;
+	 justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
+	}
 
 a {
     color: #0D47A1;
@@ -237,4 +239,11 @@ h3 i {
 .hover-ua:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+footer {
+    float: right;
+    text-align: end;
+    color:#778899;
+    display:flex;
 }
