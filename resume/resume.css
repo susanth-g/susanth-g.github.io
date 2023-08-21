@@ -180,26 +180,27 @@ location {
   flex-grow: 0.25;
 }
 
-@media (max-width: 720px) {
+@media screen only(max-width: 680px) {
 .container{
 	width: 95%;
 }
   .inner {
 	  margin-top: 3px;
-    width: calc(50% - 2px)
+    width: calc(50% - 2px);
   }
 }
 
-@media (max-width: 360px) {
+@media screen only(max-width: 360px) {
 	.container{
 	width: 100%;
 	}
   .inner {
 	  margin-top:3px;
-    width: calc(100% - 2px)
+    width: calc(100% - 2px);
   }
 }
-	
+
+
 	
 
 a {
