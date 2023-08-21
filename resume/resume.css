@@ -180,14 +180,18 @@ location {
 }
 
 @media (max-width: 720px) {
-
+.container{
+	width: 95%;
+}
   .inner {
     width: calc(50% - 2px)
   }
 }
 
 @media (max-width: 360px) {
-	
+	.container{
+	width: 100%;
+	}
   .inner {
     width: calc(100% - 2px)
   }
