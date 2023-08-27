@@ -183,13 +183,26 @@ h3 {
 role {
   font-size: inherit;
   font-weight: normal;
+  /* border: 1px solid blue; */
+  flex:70%;
 }
 
 rolelocation {
   /* float: right; */
   font-size: inherit;
   font-weight: normal;
+  flex:30%;
+text-align: right;
+  /* border: 1px solid blue; */
 }
+
+@media screen and (max-width: 360px) {
+  rolelocation{
+    text-align: left;
+  }
+}
+
+
 
 usedskills {
   font-size: inherit;
