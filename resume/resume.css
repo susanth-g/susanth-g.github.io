@@ -184,14 +184,14 @@ role {
   font-size: inherit;
   font-weight: normal;
   /* border: 1px solid blue; */
-  flex:70%;
+  flex:60%;
 }
 
 rolelocation {
   /* float: right; */
   font-size: inherit;
   font-weight: normal;
-  flex:30%;
+  flex:40%;
 text-align: right;
   /* border: 1px solid blue; */
 }
