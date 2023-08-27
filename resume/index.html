@@ -3,15 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>susanth resume</title>
-	<link rel="icon" type="image/x-icon" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
     <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
     </link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" type="text/css" target="_blank" href="resume.css">
-	<link rel="stylesheet" media="print" href="print.css" />
-	
+    <link rel="stylesheet" media="print" href="print.css" />
+
 </head>
 
 <body>
@@ -26,26 +26,26 @@ title: SUSANTH GURU
             <span class="homelocation">Kumbakonam, Tamilnadu, India</span>
         </p>
 
-        <div class="container">
-        <div class="inner"><span class="hover-ua">
-            <i class="fa-solid fa-phone"></i>+91 9500980912
-        </span></div>
-        <div class="inner"><span class="hover-ua">
-            <i class="fa-solid fa-envelope"></i>
-            <a  target="_blank" href="mailto:susanth.guru.29@gmail.com">susanth.guru.29@gmail.com </a>
-        </span></div>
-        <div class="inner"><span class="hover-ua">
-            <i class="fa-brands fa-linkedin"></i>
-            <a class="hover-ua" target="_blank"
-                href="https://www.linkedin.com/in/susanthguru/">linkedin.com/in/susanthguru </a>
-        </span></div>
-        <div class="inner"><span class="hover-ua">
-            <i class="fa-brands fa-github"></i>
-            <a class="hover-ua" target="_blank" href="https://github.com/susanth-g">github.com/susanth-g </a>
-        </span></div>
-      </div>
+        <div class="outer">
+            <div class="inner"><span class="hover-ua">
+                    <i class="fa-solid fa-phone"></i>+91 9500980912
+                </span></div>
+            <div class="inner"><span class="hover-ua">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a target="_blank" href="mailto:susanth.guru.29@gmail.com">susanth.guru.29@gmail.com </a>
+                </span></div>
+            <div class="inner"><span class="hover-ua">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a class="hover-ua" target="_blank"
+                        href="https://www.linkedin.com/in/susanthguru/">linkedin.com/in/susanthguru </a>
+                </span></div>
+            <div class="inner"><span class="hover-ua">
+                    <i class="fa-brands fa-github"></i>
+                    <a class="hover-ua" target="_blank" href="https://github.com/susanth-g">github.com/susanth-g </a>
+                </span></div>
+        </div>
 
-      <!--   <table id="infotab">
+        <!--   <table id="infotab">
             <tr>
                 <td> <span class="hover-ua">
                         <i class="fa-solid fa-phone"></i>+91 9500980912
@@ -91,11 +91,17 @@ title: SUSANTH GURU
             and provision of ingested data to the product user interface. </p>
         <h2>Work Experience</h2>
 
-        <h3> <span><a class="hover-ua" target="_blank" href="https://www.paypal.com">Paypal<i
+        <div class="companyperiod">
+            <div class="company"><a class="hover-ua" target="_blank" href="https://www.paypal.com">Paypal</a></div>
+            <div class="period">Feb 2022 - Present</div>
+        </div>
+        <!-- <h3> <span><a class="hover-ua" target="_blank" href="https://www.paypal.com">Paypal<i
                         class="fa fa-external-link"></i></a><time>Feb 2022 - Present</time> </span>
-        </h3>
-        <role>Data Engineer</role>
-        <rolelocation>Chennai, Tamil Nadu</rolelocation>
+        </h3> -->
+        <div class="companyperiod normal">
+            <role>Data Engineer</role>
+            <rolelocation>Chennai, Tamil Nadu</rolelocation>
+        </div>
         <ul>
             <li>Designed and implemented solutions based on Spark Streaming with Pubsub and Bigquery for creating data
                 ingestion pipelines.</li>
@@ -103,12 +109,16 @@ title: SUSANTH GURU
                 sources such as log files, JSON files and HIVE parquet files.</li>
         </ul>
 
-        <h3>
-            <span><a class="hover-ua" target="_blank" href="https://cangonetworks.com">CanGo Networks Pvt Ltd<i
-                        class="fa fa-external-link"></i></a> <time>Nov 2019 - Feb 2022</time></span>
-        </h3>
-        <role>Lead Big Data Developer</role>
-        <rolelocation>Chennai, Tamil Nadu</rolelocation>
+
+        <div class="companyperiod">
+            <div class="company"><a class="hover-ua" target="_blank" href="https://cangonetworks.com">CanGo Networks Pvt
+                    Ltd</a></div>
+            <div class="period">Nov 2019 - Feb 2022</div>
+        </div>
+        <div class="companyperiod normal">
+            <role>Lead Big Data Developer</role>
+            <rolelocation>Chennai, Tamil Nadu</rolelocation>
+        </div>
         <ul>
             <li>
                 Designed and implemented solutions based on core JAVA for CoreServices and SpringBoot for APIs.
@@ -118,12 +128,21 @@ title: SUSANTH GURU
                 Kafka and Pubsub.</li>
         </ul>
 
-        <h3>
+        <div class="companyperiod">
+            <div class="company"><a class="hover-ua" target="_blank" href="https://npci.org.in">National Payments
+                    Corporation of
+                    India</i></a></div>
+            <div class="period">Jul 2017 - Nov 2019</div>
+        </div>
+
+        <!-- <h3>
             <span><a class="hover-ua" target="_blank" href="https://npci.org.in">National Payments Corporation of
                     India<i class="fa fa-external-link"></i></a> <time>Jul 2017 - Nov 2019</time></span>
-        </h3>
-        <role>Associate Enterprise Architect</role>
-        <rolelocation>Chennai, Tamil Nadu</rolelocation>
+        </h3> -->
+        <div class="companyperiod normal">
+            <role>Associate Enterprise Architect</role>
+            <rolelocation>Chennai, Tamil Nadu</rolelocation>
+        </div>
         <ul>
             <li>Designed and implemented solutions based on HIVE and HBASE , Apache NIFI and Apache Phoenix.</li>
             <li>Developed utility jars to help operations team for scheduled daily reports which reduced the effort and
@@ -153,7 +172,7 @@ title: SUSANTH GURU
             </usedskills>
         </h3>
         <p class="role">
-            <roleh></roleh> Data Engineer
+            <rolename>Data Engineer</rolename>
         </p>
         <ul>
             <li>
@@ -171,7 +190,7 @@ title: SUSANTH GURU
             </usedskills>
         </h3>
         <p class="role">
-            <roleh></roleh>Lead and Developer
+            <rolename>Lead and Developer</rolename>
         </p>
         <ul>
             <li>Led a small team of UI and API developers.</li>
@@ -183,7 +202,7 @@ title: SUSANTH GURU
         <h3>MAXIS - OptiGo AI Product | <usedskills>JAVA Spark, Hive, Impala, MySQL, SpringBoot</usedskills>
         </h3>
         <p class="role">
-            <roleh></roleh> Developer
+            <rolename>Developer</rolename>
         </p>
         <ul>
             <li> Implemented a Data parser to populate performance data from csv or xml files using Spark SQL into Hive
@@ -199,7 +218,7 @@ title: SUSANTH GURU
             </usedskills>
         </h3>
         <p class="role">
-            <roleh></roleh> Developer
+            <rolename></rolename> Developer
         </p>
         <ul>
             <li>Designed and implemented a data ingestion pipeline using sqoop to fetch daily data from postgres and
@@ -213,26 +232,46 @@ title: SUSANTH GURU
         </ul>
 
         <h2>Publication</h2>
-
-        <h3>
+        <div class="companyperiod">
+            <div class="company"><a class="hover-ua" target="_blank"
+                    href="https://www.researchgate.net/publication/317421097_Emulation_of_IoT_gateway_for_connecting_sensor_nodes_in_heterogenous_networks">Emulation
+                    of IoT Gateway</a></div>
+            <div class="period">Jan 2017</div>
+        </div>
+        <!-- <h3>
             <span><a class="hover-ua" target="_blank"
                     href="https://www.researchgate.net/publication/317421097_Emulation_of_IoT_gateway_for_connecting_sensor_nodes_in_heterogenous_networks">Emulation
                     of IoT Gateway<i class="fa fa-external-link"></i></a> <time>Jan 2017</time></span>
 
-        </h3>
-        <role>Emulation of IoT gateway for connecting sensor nodes in heterogenous networks within lab environments.
-        </role>
-        <rolelocation>ICCCSP - Research Gate</rolelocation>
-
+        </h3> -->
+        <div class="companyperiod normal">
+            <role>Emulation of IoT gateway for connecting sensor nodes in heterogenous networks within lab environments.
+            </role>
+            <rolelocation>ICCCSP - Research Gate</rolelocation>
+        </div>
         <h2>Education</h2>
-        <h3>SSN, Anna university Affil. <time>Jun 2015 - Jun 2017</time></h3>
-        <role>Master of Engineering (M.E.,) in Computer Science</role>
-        <rolelocation> Chennai, Tamil Nadu</rolelocation>
+        <div class="companyperiod">
+            <div class="company"><a class="hover-ua" href="http://www.ssn.edu.in" target="_blank">SSN, Anna university
+                    Affil.</a></div>
+            <div class="period">Jun 2015 - Jun 2017</div>
+        </div>
+        <!-- <h3>SSN, Anna university Affil. <time>Jun 2015 - Jun 2017</time></h3> -->
+        <div class="companyperiod normal">
+            <role>Master of Engineering (M.E.,) in Computer Science</role>
+            <rolelocation> Chennai, Tamil Nadu</rolelocation>
+        </div>
 
-        <h3>JJCET, Anna university Affil. <time>Jun 2011 - May 2015</time></h3>
-        <role>Bachelor of Engineering (B.E.,) in Computer Science</role>
-        <rolelocation>Trichy, Tamil Nadu</rolelocation>
+        <div class="companyperiod">
+            <div class="company"><a href="https://jjcet.ac.in/" target="_blank" rel="noopener noreferrer">JJCET, Anna
+                    university Affil.</a></div>
+            <div class="period">Jun 2011 - May 2015</div>
 
+        </div>
+        <!-- <h3>JJCET, Anna university Affil. <time>Jun 2011 - May 2015</time></h3> -->
+        <div class="companyperiod normal">
+            <role>Bachelor of Engineering (B.E.,) in Computer Science</role>
+            <rolelocation>Trichy, Tamil Nadu</rolelocation>
+        </div>
         <h2>Languages</h2>
         <b>Tamil - Native, English - Fluent</b>
     </div>
