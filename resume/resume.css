@@ -3,9 +3,8 @@
 html {
   padding: 0;
   margin: 5px;
-  zoom: 100%;
+  zoom: 125%;
 }
-
 body {
   display: block;
   max-width: 720px;
@@ -348,6 +347,3 @@ footer {
   display: flex;
 }
 
-html {
-  scroll: smooth;
-}

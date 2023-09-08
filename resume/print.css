@@ -17,8 +17,8 @@
     max-width: 720px;
   }
 
-  .company:after {
-    /* content: ""; */
+  .hover-ua::after{
+    display: none;
   }
 
   .pagebreak {
