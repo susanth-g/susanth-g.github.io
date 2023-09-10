@@ -116,6 +116,9 @@ a {
   html {
     zoom: 100%;
   }
+section{
+padding: 1rem 0.2rem 1rem 0.2rem;
+}
 
   .outer {
     gap: 5px;
@@ -145,6 +148,9 @@ a {
     text-align: center;
     flex: column;
   }
+section{
+padding: 1rem 0.2rem 1rem 0.2rem;
+}
 }
 
 .inner {
