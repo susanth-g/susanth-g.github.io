@@ -1,5 +1,9 @@
 /* print.css */
 @media print {
+  :root {
+    --bgcolor: white;
+    --textcolor: black;
+  }
   header,
   footer,
   aside,
@@ -9,15 +13,20 @@
     display: none;
   }
 
-  html{
-    zoom:100%;
+  section{
+    all: unset;
   }
 
-  body{
+  html {
+    zoom: 100%;
+  }
+
+  body {
     max-width: 720px;
+    font-family: "Arial", sans-serif;
   }
 
-  .hover-ua::after{
+  .hover-ua::after {
     display: none;
   }
 
