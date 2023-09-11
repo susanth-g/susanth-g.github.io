@@ -53,6 +53,9 @@ section {
   /* border: 1px solid grey;   */
 }
 @media only screen {
+  .subsection{
+    box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.5);    
+  }
   section:hover .subsection {
     /* box-shadow: 3px 3px 0px black,4px 4px 0px black,5px 5px 0px black,6px 6px 0px black; */
 
