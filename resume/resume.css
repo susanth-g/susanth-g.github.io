@@ -3,9 +3,9 @@
 :root {
   --bgcolor: #233142;
   --textcolor: #ececec;
-  --bgcolor:white;
+  --bgcolor:#A0E4F1;
   --textcolor:black;
-  --sectioncolor: #0F2C59;
+  --sectioncolor: #F1FAFB;
 }
 
 html {
@@ -21,28 +21,34 @@ body {
   max-width: 720px;
   margin: 0 auto;
   padding: 0;
-  font-family: "Arimo", sans-serif;
-  font-family: "Open Sans", sans-serif;
   font-family: "Arial", sans-serif;
   font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Arimo", sans-serif;
   font-family: "Cabin", sans-serif;
   font-size: 12px;
   font-weight: 400;
 }
 
 .resumebody{
-  border: 2px solid grey;
   border-radius: 1rem;
   padding: 0.5rem;
+  margin: 0.3rem;
 }
 
-/* section {
+section{
   background-color: var(--sectioncolor);
-  padding: 1px 1rem 1rem 1rem;
-  border-radius: 1rem;
-  border-color: var(--textcolor);
-  margin-bottom: 1rem;
-} */
+  margin-bottom: 0.3rem;
+  border-radius: 0.5rem ;
+  border: 1px dashed grey;
+  padding: 0 0.5rem 0.5rem;
+  transition: all 0.3s ease-out;
+
+}
+
+section:active {
+  box-shadow:  0px 0px 10px black;
+}
 
 section:first-child{
   margin-top: 5px;;
