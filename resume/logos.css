@@ -1,9 +1,14 @@
 @keyframes floating {
-  0%,
+  0%,50%,
   100% {
+    transform: rotate(0deg);
   }
-  50% {
-    scale: 1.05;
+  25% {
+    transform: rotate(5deg);
+  }
+
+  75%{
+    transform: rotate(-5deg);
   }
 }
 
@@ -28,7 +33,7 @@
   justify-content: center;
 }
 .icon{
-    animation: floating 3s infinite;
+    animation: floating 5s linear 0s infinite normal;
 }
 .language {
   font-size: 0.6rem;
