@@ -3,6 +3,8 @@
   :root {
     --bgcolor: white;
     --textcolor: black;
+    --sectioncolor:white;
+    --sectioncolor2:white;
   }
   header,
   footer,
@@ -13,8 +15,9 @@
     display: none;
   }
 
-.subsection,
-  .resumebody {
+
+
+.subsection {
     all: unset;
   }
 
@@ -22,8 +25,13 @@
     margin: 0 0 10px 0;
   }
 
-  .resumebody {
-    margin: 0;
+  body {
+    border: 1px solid grey;
+    border-radius: 1rem;
+  }
+
+  #logos{
+    border-bottom: 1px solid grey;
   }
 
   html {
