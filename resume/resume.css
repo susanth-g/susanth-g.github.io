@@ -3,14 +3,14 @@
 :root {
   --bgcolor: #233142;
   --textcolor: #ececec;
-  --bgcolor:#141E46;
-  --textcolor:#141E46;
-  --sectioncolor: #FFF5E0;
+  --bgcolor:white;
+  --textcolor:black;
+  --sectioncolor: #0F2C59;
 }
 
 html {
   padding: 0;
-  margin: 5px;
+  margin: 0;
   zoom: 125%;
   background-color: var(--bgcolor);
 }
@@ -30,20 +30,27 @@ body {
   font-weight: 400;
 }
 
-section {
-  background-color: var(--sectioncolor);
-  padding: 1px 1rem 1rem 1rem;
-  /* border-radius: 1rem; */
-  border-color: var(--textcolor);
-  margin-bottom: 2px;
+.resumebody{
+  border: 2px solid grey;
+  border-radius: 1rem;
+  padding: 0.5rem;
 }
 
+/* section {
+  background-color: var(--sectioncolor);
+  padding: 1px 1rem 1rem 1rem;
+  border-radius: 1rem;
+  border-color: var(--textcolor);
+  margin-bottom: 1rem;
+} */
+
 section:first-child{
-  border-radius: 1rem 1rem 0 0;
+  margin-top: 5px;;
+  /* border-radius: 1rem 1rem 0 0; */
 }
 
 section:last-child{
-  border-radius: 0 0 1rem 1rem;
+  /* border-radius: 0 0 1rem 1rem; */
 }
 
 
@@ -116,9 +123,7 @@ a {
   html {
     zoom: 100%;
   }
-section{
-padding: 1px 0.2rem 1rem 0.2rem;
-}
+
 
   .outer {
     gap: 5px;
@@ -148,9 +153,6 @@ padding: 1px 0.2rem 1rem 0.2rem;
     text-align: center;
     flex: column;
   }
-section{
-padding: 1px 0.2rem 1rem 0.2rem;
-}
 }
 
 .inner {
