@@ -5,15 +5,14 @@
   --textcolor: #ececec;
   --bgcolor: #9a3b3b;
   --textcolor: #380000;
-  --sectioncolor: #FFF6DC;
+  --sectioncolor: #fff6dc;
   --sectioncolor2: #f2ecbe;
 
-  --bgcolor: #9E9FA5;
+  --bgcolor: #9e9fa5;
   --textcolor: black;
-  --sectioncolor: #F4F2DE;
-  --sectioncolor2: #F4F2DE;
+  --sectioncolor: #f4f2de;
+  --sectioncolor2: #f4f2de;
 }
-
 
 html {
   padding: 0;
@@ -25,7 +24,7 @@ html {
 body {
   color: var(--textcolor);
   display: block;
-  max-width: 720px;
+  max-width: 740px;
   margin: 0 auto;
   padding: 0;
   font-family: "Arial", sans-serif;
@@ -49,22 +48,37 @@ section {
   border-radius: 0.5rem;
   flex-direction: column;
   margin-bottom: 0.5rem;
+
+  transition: all 0.2s ease-out;
   /* border: 1px solid grey;   */
+}
+@media only screen {
+  section:hover .subsection {
+    /* box-shadow: 3px 3px 0px black,4px 4px 0px black,5px 5px 0px black,6px 6px 0px black; */
+
+    box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.5);
+    transform: translateY(-3px);
+  }
+
+ section:hover .subsection:active {
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+  }
 }
 
 section:last-child {
   margin-bottom: 0;
-}
-.subsection:active {
 }
 
 .subsection {
   transition: all 0.1s ease-out;
   padding: 0.5rem;
   background-color: var(--sectioncolor);
-  box-shadow: 3px 3px 0px black;
+
   border: 1px solid grey;
+  /* animation: shadows 4s infinite; */
 }
+
 .subsection:first-child {
   background-color: var(--sectioncolor2);
   border-radius: 0.5rem 0.5rem 0 0;
@@ -72,6 +86,16 @@ section:last-child {
 
 .subsection:last-child {
   border-radius: 0 0 0.5rem 0.5rem;
+}
+
+@keyframes shadows {
+  0%,
+  100% {
+    box-shadow: 0px 0px 0px black;
+  }
+  50% {
+    box-shadow: 3px 3px 0px black;
+  }
 }
 
 .name {

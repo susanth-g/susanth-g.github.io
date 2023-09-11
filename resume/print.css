@@ -11,7 +11,7 @@
   aside,
   nav,
   form,
-  iframe {
+  iframe,#logosection {
     display: none;
   }
 
@@ -21,25 +21,25 @@
     all: unset;
   }
 
+  .resumebody,section{
+    margin: 0;
+  }
   section{
+    padding: 0;
     margin: 0 0 10px 0;
   }
-
+/* 
   body {
     border: 1px solid grey;
     border-radius: 1rem;
-  }
-
-  #logos{
-    border-bottom: 1px solid grey;
-  }
+  } */
 
   html {
     zoom: 100%;
   }
 
   body {
-    max-width: 720px;
+    max-width: 740px;
     font-family: "Arial", sans-serif;
   }
   h2 {
