@@ -13,9 +13,13 @@
     display: none;
   }
 
-  section,
+.subsection,
   .resumebody {
     all: unset;
+  }
+
+  section{
+    margin: 0 0 10px 0;
   }
 
   .resumebody {
