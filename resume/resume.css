@@ -33,6 +33,7 @@ html {
     radial-gradient(100% 100% at 0 100%,#0000, #0008 4%,var(--_g),var(--c1) 96%)
     var(--c1);
   background-size: var(--s) var(--s);
+  background-attachment: fixed;
 }
 
 
