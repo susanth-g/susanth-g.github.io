@@ -20,6 +20,26 @@ html {
   zoom: 125%;
   background-color: var(--bgcolor);
 }
+html {
+  --s: 15px; /* control the size */
+  --c1: #9e9fa5;
+  --c2: #f4f2de;
+  
+  --_g: 
+     var(--c2) 6%  14%,var(--c1) 16% 24%,var(--c2) 26% 34%,var(--c1) 36% 44%,
+     var(--c2) 46% 54%,var(--c1) 56% 64%,var(--c2) 66% 74%,var(--c1) 76% 84%,var(--c2) 86% 94%;
+  background:
+    radial-gradient(100% 100% at 100% 0,var(--c1) 4%,var(--_g),#0008 96%,#0000),
+    radial-gradient(100% 100% at 0 100%,#0000, #0008 4%,var(--_g),var(--c1) 96%)
+    var(--c1);
+  background-size: var(--s) var(--s);
+}
+
+
+
+
+
+
 
 body {
   color: var(--textcolor);
@@ -55,8 +75,8 @@ section {
   /* border: 1px solid grey;   */
 }
 @media only screen {
-  .subsection{
-    box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.5);    
+  .subsection {
+    box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.5);
   }
   section:hover .subsection {
     /* box-shadow: 3px 3px 0px black,4px 4px 0px black,5px 5px 0px black,6px 6px 0px black; */
@@ -65,7 +85,7 @@ section {
     transform: translateY(-3px);
   }
 
- section:hover .subsection:active {
+  section:hover .subsection:active {
     box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.5);
     transform: translateY(-2px);
   }
