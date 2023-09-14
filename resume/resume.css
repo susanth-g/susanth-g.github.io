@@ -72,7 +72,6 @@ section {
   flex-direction: column;
   margin-bottom: 0.5rem;
 
-  transition: all 0.2s ease-out;
   /* border: 1px solid grey;   */
 }
 @media only screen {
@@ -90,6 +89,28 @@ section {
     box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.5);
     transform: translateY(-2px);
   }
+  .subsection {
+    --s: 5px; /* control the size */
+    --c1: #ededed;
+    --c2: #ffffff;
+    --c3: var(--sectioncolor);
+    
+    --_g: var(--c3) 0 120deg,#6f6f6f00 0;
+    background:
+      conic-gradient(from -60deg at 50% calc(100%/3),var(--_g)),
+      conic-gradient(from 120deg at 50% calc(200%/3),var(--_g)),
+      conic-gradient(from  60deg at calc(200%/3),var(--c3) 60deg,var(--c2) 0 120deg,#87878700 0),
+      conic-gradient(from 180deg at calc(100%/3),var(--c1) 60deg,var(--_g)),
+      linear-gradient(90deg,var(--c1)   calc(100%/6),var(--c2) 0 50%,
+                            var(--c1) 0 calc(500%/6),var(--c2) 0);
+    background-size: calc(1.732*var(--s)) var(--s);
+  }
+  
+  
+  
+  
+  
+
 }
 
 section:last-child {
@@ -310,7 +331,7 @@ h2 {
   font-size: 1.2em;
   font-weight: bold;
   /* border-bottom: 1px solid var(--textcolor); */
-  /* margin: 10px 0 5px 0; */
+  /* margin: 0px 0 5px 0; */
   /* padding: 0 0 2px 0; */
 }
 
