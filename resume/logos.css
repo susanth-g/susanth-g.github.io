@@ -39,11 +39,11 @@
   flex-direction: column;
   justify-content: center;
 }
-.logo:nth-child(1) { animation: floating 5s linear 0s infinite normal; }
-.logo:nth-child(2) { animation: floating 5s linear 1s infinite normal; }
-.logo:nth-child(3) { animation: floating 5s linear 2s infinite normal; }
-.logo:nth-child(4) { animation: floating 5s linear 3s infinite normal; }
-.logo:nth-child(5) { animation: floating 5s linear 4s infinite normal; }
+.logo:nth-child(1) .icon { animation: floating 5s linear 0s infinite normal; }
+.logo:nth-child(2) .icon { animation: floating 5s linear 1s infinite normal; }
+.logo:nth-child(3) .icon { animation: floating 5s linear 2s infinite normal; }
+.logo:nth-child(4) .icon { animation: floating 5s linear 3s infinite normal; }
+.logo:nth-child(5) .icon { animation: floating 5s linear 4s infinite normal; }
 
 .icon {
   /* animation: floating 5s linear 0s infinite normal; */
