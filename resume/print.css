@@ -3,6 +3,7 @@
   :root {
     --bgcolor: white;
     --textcolor: black;
+    --lightgrey:rgba(198,198,198,1);
     --sectioncolor:white;
     --sectioncolor2:white;
   }
@@ -25,7 +26,9 @@
     margin: 0;
   }
   section{
-    padding: 0;
+    box-shadow: unset;
+    padding: 0rem;
+    border: none;
     margin: 0 0 10px 0;
   }
 /* 
@@ -40,10 +43,10 @@
 
   body {
     max-width: 740px;
-    font-family: "Arial", sans-serif;
+    /* font-family: "Arial", sans-serif; */
   }
   h2 {
-    border-bottom: 1px solid var(--textcolor);
+    border-bottom: 1px solid var(--lightgrey);
   }
 
   .hover-ua::after {

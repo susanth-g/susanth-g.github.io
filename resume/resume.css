@@ -11,36 +11,43 @@
   --bgcolor: #9e9fa5;
   --textcolor: black;
   --sectioncolor: #f4f2de;
+  --sectioncolor: #ffffff;
   --sectioncolor2: #f4f2de;
+  --sectioncolor2: #ffffff;
 }
 
 html {
   padding: 0;
   margin: 0;
   zoom: 125%;
-  background-color: var(--bgcolor);
+  /* background-color: var(--bgcolor); */
 }
-html {
+htmll {
   --s: 15px; /* control the size */
-  --c1: #9e9fa5;
-  --c2: #f4f2de;
-  
-  --_g: 
-     var(--c2) 6%  14%,var(--c1) 16% 24%,var(--c2) 26% 34%,var(--c1) 36% 44%,
-     var(--c2) 46% 54%,var(--c1) 56% 64%,var(--c2) 66% 74%,var(--c1) 76% 84%,var(--c2) 86% 94%;
-  background:
-    radial-gradient(100% 100% at 100% 0,var(--c1) 4%,var(--_g),#0008 96%,#0000),
-    radial-gradient(100% 100% at 0 100%,#0000, #0008 4%,var(--_g),var(--c1) 96%)
-    var(--c1);
+  --c1: #dddddd;
+  --c2: #ffffff;
+
+  --_g: var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%,
+    var(--c1) 36% 44%, var(--c2) 46% 54%, var(--c1) 56% 64%, var(--c2) 66% 74%,
+    var(--c1) 76% 84%, var(--c2) 86% 94%;
+  background: radial-gradient(
+      100% 100% at 100% 0,
+      var(--c1) 4%,
+      var(--_g),
+      #0008 96%,
+      #0000
+    ),
+    radial-gradient(
+        100% 100% at 0 100%,
+        #0000,
+        #0008 4%,
+        var(--_g),
+        var(--c1) 96%
+      )
+      var(--c1);
   background-size: var(--s) var(--s);
   background-attachment: fixed;
 }
-
-
-
-
-
-
 
 body {
   color: var(--textcolor);
@@ -48,12 +55,12 @@ body {
   max-width: 740px;
   margin: 0 auto;
   padding: 0;
-  font-family: "Arimo", sans-serif;
   font-family: "Cabin", sans-serif;
-  font-family: "Arial", sans-serif;
-  font-family: "Poppins", sans-serif;
   font-family: "Open Sans", sans-serif;
+  font-family: "Arimo", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-family: "Lato", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 400;
   font-size: 12px;
   font-weight: 400;
@@ -67,71 +74,76 @@ body {
 
 section {
   display: flex;
-  gap: 0.1rem;
+  gap: 0rem;
   border-radius: 0.5rem;
+  padding: 0.5rem;
   flex-direction: column;
   margin-bottom: 0.5rem;
-
-  /* border: 1px solid grey;   */
+  background-color: white;
+  border: 1px solid rgb(200, 200, 200);
 }
 @media only screen {
   .subsection {
-    box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.5); */
+    /* border: 1px solid grey; */
   }
-  section:hover .subsection {
+  section:hover .subsectionn {
     /* box-shadow: 3px 3px 0px black,4px 4px 0px black,5px 5px 0px black,6px 6px 0px black; */
 
     box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.5);
     transform: translateY(-3px);
   }
 
-  section:hover .subsection:active {
+  section:hover .subsectionn:active {
     box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.5);
     transform: translateY(-2px);
   }
-  .subsection {
+  .subsectionn {
     --s: 5px; /* control the size */
     --c1: #ededed;
     --c2: #ffffff;
     --c3: var(--sectioncolor);
-    
-    --_g: var(--c3) 0 120deg,#6f6f6f00 0;
-    background:
-      conic-gradient(from -60deg at 50% calc(100%/3),var(--_g)),
-      conic-gradient(from 120deg at 50% calc(200%/3),var(--_g)),
-      conic-gradient(from  60deg at calc(200%/3),var(--c3) 60deg,var(--c2) 0 120deg,#87878700 0),
-      conic-gradient(from 180deg at calc(100%/3),var(--c1) 60deg,var(--_g)),
-      linear-gradient(90deg,var(--c1)   calc(100%/6),var(--c2) 0 50%,
-                            var(--c1) 0 calc(500%/6),var(--c2) 0);
-    background-size: calc(1.732*var(--s)) var(--s);
-  }
-  
-  
-  
-  
-  
 
+    --_g: var(--c3) 0 120deg, #6f6f6f00 0;
+    background: conic-gradient(from -60deg at 50% calc(100% / 3), var(--_g)),
+      conic-gradient(from 120deg at 50% calc(200% / 3), var(--_g)),
+      conic-gradient(
+        from 60deg at calc(200% / 3),
+        var(--c3) 60deg,
+        var(--c2) 0 120deg,
+        #87878700 0
+      ),
+      conic-gradient(from 180deg at calc(100% / 3), var(--c1) 60deg, var(--_g)),
+      linear-gradient(
+        90deg,
+        var(--c1) calc(100% / 6),
+        var(--c2) 0 50%,
+        var(--c1) 0 calc(500% / 6),
+        var(--c2) 0
+      );
+    background-size: calc(1.732 * var(--s)) var(--s);
+  }
 }
 
 section:last-child {
   margin-bottom: 0;
 }
 
-.subsection {
+.subsectionn {
   transition: all 0.1s ease-out;
-  padding: 0.5rem;
+  padding: 0.4rem;
   background-color: var(--sectioncolor);
 
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   /* animation: shadows 4s infinite; */
 }
 
-.subsection:first-child {
+.subsectionn:first-child {
   background-color: var(--sectioncolor2);
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.subsection:last-child {
+.subsectionn:last-child {
   border-radius: 0 0 0.5rem 0.5rem;
 }
 
@@ -330,7 +342,7 @@ h2 {
   margin: 0;
   font-size: 1.2em;
   font-weight: bold;
-  /* border-bottom: 1px solid var(--textcolor); */
+  border-bottom: 1px solid var(--textcolor);
   /* margin: 0px 0 5px 0; */
   /* padding: 0 0 2px 0; */
 }
