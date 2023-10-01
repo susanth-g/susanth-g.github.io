@@ -24,6 +24,8 @@
 
   .resumebody,section{
     margin: 0;
+    box-shadow: none;
+    border: none;
   }
   section{
     box-shadow: unset;
