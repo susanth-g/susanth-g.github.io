@@ -40,11 +40,14 @@
   } */
 
   html {
-    zoom: 100%;
+    zoom: 100%;;
   }
 
   body {
     max-width: 740px;
+    border: 1px solid var(--lightgrey);
+    padding: 0 0.5rem;
+    border-radius: 10px;
     /* font-family: "Arial", sans-serif; */
   }
   h2 {
