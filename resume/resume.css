@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Arimo:ital,wght@0,400;0,500;1,500&family=Cabin&family=Open+Sans:wght@300;400&family=Poppins&family=Work+Sans&family=Plus+Jakarta+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Arimo:ital,wght@0,400;0,500;1,500&family=Cabin&family=Open+Sans:wght@300;400&family=Poppins&family=Work+Sans&family=Plus+Jakarta+Sans:wght@400;500&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
 
 :root {
   --bgcolor: #233142;
@@ -63,16 +63,17 @@ body {
   max-width: 740px;
   margin: 0 auto;
   padding: 0;
-  font-family: "Poppins", sans-serif;
-  font-family: "Arial", sans-serif;
   font-family: "Arimo", sans-serif;
-  font-family: "Lato", sans-serif;
   font-family: "Cabin", sans-serif; 
-  font-family: "Open Sans", sans-serif;
   font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Arial", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Rethink Sans", sans-serif;
   font-size: 12px;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .resumebody {
