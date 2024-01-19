@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Arimo:ital,wght@0,400;0,500;1,500&family=Cabin&family=Open+Sans:wght@300;400&family=Poppins&family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Arimo:ital,wght@0,400;0,500;1,500&family=Cabin&family=Open+Sans:wght@300;400&family=Poppins&family=Work+Sans&family=Plus+Jakarta+Sans:wght@400;500&display=swap");
 
 :root {
   --bgcolor: #233142;
@@ -19,6 +19,9 @@
   --bgcolor: #15133c;
   --sectioncolor: #15133c;
   --textcolor: #ffffff;
+
+  --bgcolor:#ffffff;
+  --textcolor:#000000
 }
 
 html {
@@ -60,15 +63,16 @@ body {
   max-width: 740px;
   margin: 0 auto;
   padding: 0;
-  font-family: "Cabin", sans-serif;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Arimo", sans-serif;
   font-family: "Poppins", sans-serif;
-  font-family: "Lato", sans-serif;
   font-family: "Arial", sans-serif;
-  font-weight: 400;
+  font-family: "Arimo", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Cabin", sans-serif; 
+  font-family: "Open Sans", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 12px;
-  font-weight: 400;
+  font-optical-sizing: auto;
+  font-weight: 500;
 }
 
 .resumebody {
@@ -88,8 +92,8 @@ section {
   /* background-color: var(--sectioncolor); */
   /* background-color: rgba(200, 200, 200, 0.1); */
   /* backdrop-filter: blur(10px); */
-  background-color: rgba(205, 205, 205, 0.2);  
-  backdrop-filter: blur(3px);
+  /* background-color: rgba(205, 205, 205, 0.2);  
+  backdrop-filter: blur(3px); */
 }
 
 
