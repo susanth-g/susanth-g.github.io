@@ -29,6 +29,7 @@ html {
   margin: 0;
   zoom: 125%;
   background-color: var(--bgcolor);
+  background-color: rgb(55, 55, 255);
 }
 htmll {
   --s: 15px; /* control the size */
@@ -81,10 +82,11 @@ body {
   padding: 0.1rem;
   margin: 0.3rem;
   border-radius: 15px;
-  border-color: slategrey;
+  border-color: white;
   border-style:solid;
 
-  /* background-color: var(--sectioncolor); */
+  background-color: var(--sectioncolor);
+  background-color: rgba(252, 252, 252, 1);
 }
 
 section {
